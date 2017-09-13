@@ -11,6 +11,8 @@ package animalraces;
  */
 public class Dolphin extends Mammal implements IWalk, ISwim, IMakeSound, IFly{
 
+    public String dName = Name = "Dolphindeer";
+    public int dTemp = bodyTemp = 92;
     
     @Override
     public void Walk() {
