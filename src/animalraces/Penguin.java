@@ -11,6 +11,8 @@ package animalraces;
  */
 public class Penguin extends Bird implements IWalk, ISwim, IMakeSound, IFly{
 
+    public String pName = bName = "Pengu the Penguin";
+    public int pWing = WingSpan = 8;
     @Override
     public void Walk() {
         System.out.println("I can walk");
