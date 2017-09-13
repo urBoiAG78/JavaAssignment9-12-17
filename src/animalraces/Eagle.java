@@ -11,6 +11,10 @@ package animalraces;
  */
 public class Eagle extends Bird implements IWalk, ISwim, IMakeSound, IFly{
 
+    public String eName = bName = "Eli the Eagle";
+    public int eWing = WingSpan = 7;
+    
+    
     @Override
     public void Walk() {
         System.out.println("I can't walk");
