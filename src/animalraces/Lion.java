@@ -10,7 +10,9 @@ package animalraces;
  * @author agonzalez
  */
 public class Lion extends Mammal implements IWalk, ISwim, IMakeSound, IFly{
-    public String lName = Name;
+    public String lName = Name = "Simba";
+    public int lTemp = bodyTemp = 152;
+    
     @Override
     public void Walk() {
         System.out.println("I can walk");
