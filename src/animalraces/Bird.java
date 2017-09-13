@@ -10,5 +10,6 @@ package animalraces;
  * @author agonzalez
  */
 public class Bird extends Animals{
-    int WingSpan;
+    public int WingSpan;
+    public String bName = Name;
 }
