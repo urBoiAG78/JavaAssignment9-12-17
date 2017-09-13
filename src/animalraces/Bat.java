@@ -11,6 +11,9 @@ package animalraces;
  */
 public class Bat extends Mammal implements IWalk, ISwim, IMakeSound, IFly{
 
+    public String bName = Name = "Ben the Bat";
+    public int bTemp = bodyTemp = 110;
+    
     @Override
     public void Walk() {
         System.out.println("I can't walk");
