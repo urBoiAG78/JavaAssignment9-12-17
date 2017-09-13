@@ -11,6 +11,8 @@ package animalraces;
  */
 public class Bass extends Fish implements IWalk, ISwim, IMakeSound, IFly{
 
+    public String bName = Name = "Barry the Bass";
+    public boolean bSalt = isSaltWater = false;
     @Override
     public void Walk() {
         System.out.println("I can't walk");
