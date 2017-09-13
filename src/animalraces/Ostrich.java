@@ -11,7 +11,10 @@ package animalraces;
  */
 public class Ostrich extends Bird implements IWalk, ISwim, IMakeSound, IFly{
     
-
+    public String oName = bName = "Oliver the Ostrich";
+    public int oWing = WingSpan = 14;
+    
+    
     @Override
     public void Walk() {
         System.out.println("I can Walk");
@@ -31,6 +34,8 @@ public class Ostrich extends Bird implements IWalk, ISwim, IMakeSound, IFly{
     public void fly() {
         System.out.println("I can't fly");
     }
+
+    
     
         
     
