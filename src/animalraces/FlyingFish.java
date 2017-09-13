@@ -11,6 +11,9 @@ package animalraces;
  */
 public class FlyingFish extends Fish implements IWalk, ISwim, IMakeSound, IFly{
 
+    public String fName = Name = "Fry The Flying Fish";
+    public boolean fSaly =isSaltWater = true;
+    
     @Override
     public void Walk() {
         System.out.println("I can't walk");
