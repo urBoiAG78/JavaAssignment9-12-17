@@ -117,7 +117,7 @@ public class AnimalRaces {
        
        for(IWalk walker: myWalkers)
        {
-           System.out.println(myWalkers.getClass());
+           System.out.println(walker.getClass());
        }
        
        System.out.println("---------------");
