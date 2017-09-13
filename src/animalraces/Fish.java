@@ -10,5 +10,7 @@ package animalraces;
  * @author agonzalez
  */
 public class Fish extends Animals{
-    boolean isSaltWater;
+    public boolean isSaltWater;
+    public String fName = Name;
+    
 }
